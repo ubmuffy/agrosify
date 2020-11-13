@@ -1,0 +1,167 @@
+* {
+    border: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    color: #1A1A1A;
+}
+
+.heading {
+    font-family: 'Secular One', sans-serif;
+    font-weight: bold;
+    color:  rgb(31, 180, 31) !important;
+}
+
+/* Navbar styling */
+/*////////////////*/
+
+.page:hover {
+    color:  rgb(31, 180, 31) !important;
+    text-decoration: underline;
+}
+
+#nav {
+    background-color: #FFFFFF;
+}
+
+.logo-img{
+    width: 70px;
+}
+
+.nav-list-color, .black-color {
+    color: #1A1A1A !important;
+}
+
+.custom-logo-padding {
+    padding-left: 5.2%;
+    padding-right: 5.2%;
+}
+
+.nav-font {
+    font-size: large;
+    font-weight: 500;
+}
+
+.banner {
+    margin-top: 96px;
+}
+
+.contact-section {
+    position: relative;
+}
+
+
+.text {
+    position: absolute;
+    z-index: 1;
+    top: 50%;
+}
+
+.contact-heading {
+    color: rgb(31, 180, 31);
+    font-weight: bold;
+}
+
+
+.form-2 {
+	padding-top: 3rem;
+    padding-bottom: 5.625rem;
+    background-color: #fff;
+}
+
+.form-control-input {
+    background-color: #e9e5e5;
+}
+
+.form-control-textarea {
+    background-color: #e9e5e5;
+}
+
+.form-2 .container .row h2 {
+    color: #a82728;
+    font-weight: bold;
+}
+
+#cmessage {
+    height: 400px;
+}
+
+.container .row h2 {
+    padding-bottom: 15px;
+}
+
+.send {
+    color: #fff;
+}
+
+#send {
+    background-color:  rgb(31, 180, 31);
+}
+
+.text-container ul li a {
+    color: #000;
+}
+
+.contact-form {
+    order: 2;
+}
+
+.contact-info {
+    order: 1;
+}
+
+.get {
+    padding-top: 30px;
+}
+
+footer {
+    order: 3;
+}
+
+.sub-btn {
+    border: none;
+    padding: 10px;
+    background-color: rgb(31, 180, 31);
+    border-radius: 6px;
+    color: white;
+}
+
+.black-bg {
+    background-color: #000000;
+}
+
+@media only screen and (max-width: 575px) {
+    div.footer-form {
+        order: 1;
+    }
+    div.footer-label {
+        text-align: center;
+        order: 2;
+    }
+}
+
+
+@media only screen and (min-width: 768px) {
+    .contact-heading {
+        font-weight: 200;
+        font-size: 1200;
+    }
+    .form-2 {
+        padding-top: 6rem;
+    }
+    .contact-form {
+        order: 1;
+    }
+    
+    .contact-info {
+        order: 2;
+    }
+
+    .get {
+        padding-top: 30px;
+    }
+
+}
